@@ -14,5 +14,5 @@ services:
     ports:
     - "15432:5432"
     environment:
-      POSTGRES_DB: silcom-sms
-      POSTGRES_USER: silcom-sms
+      POSTGRES_DB: "silcom-sms"
+      POSTGRES_USER: "silcom-sms"
