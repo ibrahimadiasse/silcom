@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  silcom-sms-psql-master:
+    restart: always
+    container_name: silcom-sms-psql-master
+    image: silcom/sms-psql:master
+    build:
+      context: ./psql/config
+      dockerfile: Dockerfile-master
+    volumes:
+    - ".data/psql/master/data:/var/lib/postgresql/data"
+    ports:
+    - "15432:5432"
+    environment:
+      POSTGRES_DB: silcom-sms
+      POSTGRES_USER: silcom-sms
