@@ -2,6 +2,7 @@
 ## sms
 
 ### Documentation
+- [git](https://git-scm.com/book/en/v1/Getting-Started-About-Version-Control)
 - [spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [spring rest service tuto](https://spring.io/guides/gs/rest-service/)
 
